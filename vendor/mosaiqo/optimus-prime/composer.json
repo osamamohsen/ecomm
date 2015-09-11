@@ -1,0 +1,27 @@
+{
+  "name": "mosaiqo/optimus-prime",
+  "description": "A simple package to transform collection and entities to output to a JSON / API.",
+  "authors": [
+    {
+      "name": "Boudy de Geer",
+      "email": "boudydegeer@mosaiqo.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "^5.1",
+    "illuminate/filesystem": "~5.1",
+    "mustache/mustache": "~2.6"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "master-dev",
+    "codeception/codeception": "master-dev",
+    "laravel/elixir": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {
+      "Mosaiqo\\OptimusPrime": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
